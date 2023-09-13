@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        #txtNome {
+            background-color: rgb(209, 183, 183);
+            color: rgb(0, 0, 0);
+        }
+
+        #txtNome:focus {
+            background-color: rgb(0, 0, 0);
+        }
+
+        #txtComida::marker {
+            background-color: blueviolet;
+        }
+        body{
+            background-color: blueviolet;
+
+        }
+          
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+
+        <label for="txtNome">Nome: </label>
+        <input type="text" name="txtNome" id="txtNome" value="Anna">
+        <br>
+        <label for="txtData">Data de nascimento: </label>
+        <input type="date" name="txtData" id="txtData">
+        <br>
+        <label for="txtCor">Cor preferida:</label>
+        <input type="color" name="txtCor" id="txtCor">
+        <br>
+        <label for="txtEmail">e-mail</label>
+        <input type="email" name="txtEmail" id="txtEmail">
+        <br>
+        <label for="txtNum">Idade</label>
+        <input type="number" name="txtNum" id="txtNum">
+        <br>
+        <input type="checkbox" name="ckbEstudande" id="ckbEstudande">
+        <label for="ckbEstudande">É estudante</label>
+
+        <br>
+        <label for="txtPass">Comida favorita: </label>
+        <input type="comida" name="txtPass" id="txtComida">
+        <br>
+        <label for="txtPass">Cidade que mora: </label>
+        <input type="cidade" name="txtPass" id="txtCidade">
+        <br>
+        <label for="txtPass">Música favorita: </label>
+        <input type="musica" name="txtPass" id="txtMusica">
+        <br>
+        <label for="txtPass">Hobby: </label>
+        <input type="hobby" name="txtPass" id="txtHobby">
+    </form>
+    </style>
+
+
+
+</body>
+
+</html>
